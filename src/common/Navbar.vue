@@ -8,12 +8,36 @@
     </div>
     <div class="navlinks">
       <ul>
-        <li>Home</li>
-        <li>Goals and Achievements</li>
-        <li>Activities</li>
-        <li>Projects</li>
-        <li>About</li>
-        <li>Contacts</li>
+        <li>
+          <router-link to="#">
+            Home
+          </router-link>
+        </li>
+        <li>
+          <router-link to="/goals">
+            Goals and Achievements
+          </router-link>
+        </li>
+        <li>
+          <router-link to="/activities">
+            Activities
+          </router-link>
+        </li>
+        <li>
+          <router-link to="/projects">
+            Projects
+          </router-link>
+        </li>
+        <li>
+          <router-link to="/about">
+            About
+          </router-link>
+        </li>
+        <li>
+          <router-link to="/contacts">
+            Contacts
+          </router-link>
+        </li>
       </ul>
     </div>
   </div>
