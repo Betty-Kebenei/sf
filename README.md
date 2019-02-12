@@ -1,4 +1,5 @@
-# sf
+# SENDERS FELLOWSHIP
+[![Build Status](https://travis-ci.org/Betty-Kebenei/sf.svg?branch=master)](https://travis-ci.org/Betty-Kebenei/sf)
 
 ## Project setup
 ```
