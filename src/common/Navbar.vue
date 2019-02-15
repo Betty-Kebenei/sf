@@ -9,7 +9,7 @@
     <div class="navlinks">
       <ul>
         <li>
-          <router-link to="#">
+          <router-link to="/home">
             Home
           </router-link>
         </li>
@@ -19,22 +19,12 @@
           </router-link>
         </li>
         <li>
-          <router-link to="/activities">
-            Activities
-          </router-link>
-        </li>
-        <li>
-          <router-link to="/projects">
-            Projects
-          </router-link>
-        </li>
-        <li>
           <router-link to="/about">
             About
           </router-link>
         </li>
         <li>
-          <router-link to="/contacts">
+          <router-link to="/contact-us">
             Contacts
           </router-link>
         </li>
