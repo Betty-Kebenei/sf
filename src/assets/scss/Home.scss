@@ -1,0 +1,31 @@
+.home {
+    .people {
+        text-align: center;
+
+        img {
+            border-radius: 1%;
+            height: 180px;
+            width: 90%;
+            padding-top: 10px;
+        }
+
+        @media (min-width: 620px) {
+            img {
+                height: 250px;
+            }
+        }
+
+        @media (min-width: 1020px) {
+            img {
+                height: 350px;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            img {
+                height: 450px;
+            }
+        }
+
+    }
+}

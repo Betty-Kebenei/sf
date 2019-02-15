@@ -4,13 +4,10 @@ exports[`App renders correctly 1`] = `
 <div
   id="app"
 >
-  <img
-    alt="Vue logo"
-    src="./assets/logo.png"
-  />
+  <navbar-stub />
    
-  <helloworld-stub
-    msg="Welcome to Your Vue.js App"
-  />
+  <section>
+    <router-view />
+  </section>
 </div>
 `;

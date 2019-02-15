@@ -1,0 +1,62 @@
+#navbar {
+    box-shadow: 0 7px 10px -10px #525252;
+    box-sizing: border-box;
+    padding: 0 10%;
+    width: 100%;
+    display: block;
+    text-align: center;
+    
+    .navlinks {
+        padding-bottom: 10px;
+        position: relative;
+        left: 0%;
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+           
+            li {
+                display: block;
+                padding: 5px 0px;
+
+                a {
+                    text-decoration: none;
+                    font-weight: bold;
+                    color: grey;
+                }
+
+                .router-link-active {
+                    color: green;
+                }
+            }
+
+            @media (min-width: 620px) {
+                li {
+                    display: inline;
+                    padding: 0 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1020px) {
+    #navbar {
+        display: flex;
+        .navlinks {
+            left: 10%;
+            ul {
+                padding-top: 20px;
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    #navbar {
+        .navlinks {
+            left: 30%;
+        }
+    }
+}

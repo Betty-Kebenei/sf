@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar renders correctly 1`] = `
+<div
+  id="navbar"
+>
+  <div
+    class="logo"
+  >
+    <img
+      alt="SF logo"
+      src="../assets/images/logo.png"
+    />
+  </div>
+   
+  <div
+    class="navlinks"
+  >
+    <ul>
+      <li>
+        <router-link-stub
+          to="/home"
+        >
+          
+          Home
+        
+        </router-link-stub>
+      </li>
+       
+      <li>
+        <router-link-stub
+          to="/goals"
+        >
+          
+          Goals and Achievements
+        
+        </router-link-stub>
+      </li>
+       
+      <li>
+        <router-link-stub
+          to="/about"
+        >
+          
+          About
+        
+        </router-link-stub>
+      </li>
+       
+      <li>
+        <router-link-stub
+          to="/contact-us"
+        >
+          
+          Contacts
+        
+        </router-link-stub>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
