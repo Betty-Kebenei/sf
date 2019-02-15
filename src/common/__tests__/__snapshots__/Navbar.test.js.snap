@@ -18,27 +18,43 @@ exports[`Navbar renders correctly 1`] = `
   >
     <ul>
       <li>
-        Home
+        <router-link-stub
+          to="/home"
+        >
+          
+          Home
+        
+        </router-link-stub>
       </li>
        
       <li>
-        Goals and Achievements
+        <router-link-stub
+          to="/goals"
+        >
+          
+          Goals and Achievements
+        
+        </router-link-stub>
       </li>
        
       <li>
-        Activities
+        <router-link-stub
+          to="/about"
+        >
+          
+          About
+        
+        </router-link-stub>
       </li>
        
       <li>
-        Projects
-      </li>
-       
-      <li>
-        About
-      </li>
-       
-      <li>
-        Contacts
+        <router-link-stub
+          to="/contact-us"
+        >
+          
+          Contacts
+        
+        </router-link-stub>
       </li>
     </ul>
   </div>

@@ -6,8 +6,8 @@ exports[`App renders correctly 1`] = `
 >
   <navbar-stub />
    
-  <helloworld-stub
-    msg="Welcome to Your Vue.js App"
-  />
+  <section>
+    <router-view />
+  </section>
 </div>
 `;

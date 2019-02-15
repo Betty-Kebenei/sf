@@ -1,8 +1,8 @@
 import { shallowMount } from '@vue/test-utils';
-import Navbar from '../Navbar.vue';
+import Home from '../Home.vue';
 
 describe('Navbar', () => {
-  const wrapper = shallowMount(Navbar, {stubs: ['router-link']});
+  const wrapper = shallowMount(Home);
   test('is a Vue instance', () => {
     expect(wrapper.isVueInstance()).toBeTruthy();
   });
